@@ -1,0 +1,23 @@
+* {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    margin: 0;
+    padding:  0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hide thank you state */
+.thanks-container {
+    display: none;
+}
+
+
+
