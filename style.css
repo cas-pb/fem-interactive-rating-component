@@ -2,6 +2,7 @@
     font-family: "Overpass", serif;
     margin: 0;
     padding:  0;
+    font-weight: normal;
 }
 
 body {
@@ -16,11 +17,55 @@ body {
 }
 
 .rating-container {
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 18%, 0.5);
     border-radius: 20px;
-    width: 800px;
+    width: 350px;
     height: auto;
     padding: 30px;
+}
+
+
+.star > img {
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+    list-style: 100%;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+h2,
+.rating-copy,
+.rating-numbers {
+    margin-bottom: 25px;
+}
+
+.rating-copy,
+.rating-numbers {
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate-one,
+.rate-two,
+.rate-three,
+.rate-four,
+.rate-five {
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+    list-style: 100%;
+    vertical-align: middle;
 }
 
 /* hide thank you state */
